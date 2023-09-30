@@ -4,6 +4,8 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract AddEthers {
 
+    //Lesson Two
+
     mapping (address => uint) public balance;
 
     function deposit () external payable {
